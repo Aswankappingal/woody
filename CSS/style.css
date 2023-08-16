@@ -1,0 +1,217 @@
+/* main first section   */
+.main{
+    background-color: rgb(243, 243, 243);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+/* main section right */
+.sub-right{
+    margin-right: 60px;
+    margin-top: 13px;
+    
+}
+.sub-right i{
+    color: #AB7442;
+    border: 4px solid white;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 8px;
+}
+/* phone icon */
+.sub-right span i{
+    color: #AB7442;
+    border: 4px solid rgb(243, 243, 243);
+    font-size: 18px;
+    background-color:rgb(243, 243, 243);
+}
+.sub-right span{
+    font-size: 15px; 
+    margin-right: 5px;
+}
+/* main section left */
+.sub-left{
+    margin-left: 40px;
+    margin-top: 15px;   
+}
+.sub-left i{
+    color: #AB7442;
+    margin-left: 10px;
+}
+.sub-left span{
+    font-size: 15px;  
+    margin-left: 10px; 
+}
+/* nav-bar-sections */
+.main-1st-section{
+    width: 50%;
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 40px;
+    color: #AB7442;
+}
+/* links whole section nav  */
+
+#home-in-nav{
+    color: #AB7442;
+}
+.main-2nd-section{
+    width: 35%;
+    font-size: 17px;
+    margin-left: 30px;
+    gap: 20px;
+    font-weight: 600;    
+}
+.main-2nd-section a:hover{
+     color: #AB7442 !important;
+}
+/* get quote sectiom */
+.main-3rd-section{
+    width: 15%;
+    background-color: #AB7442;
+    padding: 18px;
+}
+.main-3rd-section a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    margin-left: 22px;
+}
+.main-3rd-section i{
+    margin-left: 9px;
+}
+     /* carsoel-section */
+#icons-caro{
+    font-size: 30px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+}
+.caro-main-main{
+    position: relative;
+}
+.main-caro-contents{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    color: white;
+
+}
+.main-caro-contents a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    background-color: #AB7442;
+    padding: 10px 10px;
+    margin-top: 30px;
+
+}
+#btn{
+    background-color: #ffffff;
+    padding: 10px 10px; 
+    color: black;
+    font-size: 15px;
+}
+
+.main-sub1{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+.main-sub2 h3{
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+/* down 4 icons and head */
+.main-4-section{
+    display: flex;
+    justify-content:space-between;
+    width: 75%;
+    margin-left: 10%;
+    margin-top: 30px;
+    gap: 19px;
+}
+.icons-main{
+    display: flex;
+    justify-content: space-between;
+}
+.head-sect h1{
+    font-weight: 700;
+    font-size: 60px;
+    color: rgb(225, 225, 225);
+    margin-left: 23px;
+} 
+.icons-only i{
+    font-size: 40px;
+    color: #AB7442;
+    background-color: #f4f2f2;
+    height: 80px;
+    padding: 20px;
+}
+.icons-only p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #353535;
+    font-size: 20px;
+}
+@media(min-width:300px) and (max-width:575.98px){
+    /* first-sec */
+    .main{
+        display: none;
+    }
+    /* get a auote  */
+    .main-3rd-section{
+        display: none;
+    } 
+    .main-1st-section{
+        width: 50%;
+        font-weight: 700;
+        font-size: 22px;
+        margin-left: 20px;
+        color: #AB7442;
+    }
+
+    /* 4icons and image  */
+    .main-4-section{
+        display: inline;
+        width: 50%;
+        margin-left: 5%;
+        margin-top: 10px;
+        gap: 9px;
+      
+    }
+    .head-sect h1{
+        font-weight: 700;
+        font-size: 30px;
+        color: rgb(225, 225, 225);
+        margin-left: 13px;
+    }
+    .icons-only i{
+        font-size: 20px;
+        color: #AB7442;
+        background-color: #f4f2f2;
+        height: 40px;
+        padding: 10px;
+    }
+    .icons-only p{
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        font-family: "Roboto",sans-serif;
+        font-weight: 700;
+        line-height: 1.2;
+        color: #353535;
+        font-size: 13px;
+    }
+    .icons-main{
+        width: 95%;
+    }
+    
+}
