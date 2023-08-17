@@ -459,7 +459,9 @@
 .free-text textarea::placeholder{
     font-size: 20px;
     font-weight: 300;
-    padding-left: 10px;
+    padding-left: 5px;
+    /* border: 1px solid green; */
+    width: 65%;
 }
 .free-input2 input{
     padding: 15px;
@@ -478,6 +480,7 @@
     border: none;
     margin-left: 5px;
     margin-top: 20px;
+    width: 65%;
 }
 .free-text textarea:hover{
     border: 1px solid rgb(188, 180, 102);
@@ -1036,7 +1039,7 @@
 .free-text textarea::placeholder{
     font-size: 20px;
     font-weight: 300;
-    padding-left: 10px;
+    /* padding-left: 5px; */
 }
 .free-input2 input{
     padding: 15px;
@@ -1064,9 +1067,9 @@
     border: none;
     margin-top: 20px;
     text-align: center;
-    width: 90%;
+    width: 60%;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .free-btn button{
     border: none;
@@ -1191,7 +1194,7 @@
         font-size: 14px;
      }
      .sub-footer input{
-        padding: 12px 20px;
+        padding: 12px 5px;
      }
      .sub4-footer a{
         text-decoration: none;
@@ -1224,6 +1227,16 @@
     }
     .last2{
         margin-left: 70px;
+    }
+    .team-Members-head h1 {
+        margin-top: 40px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 27px;
+    }
+    .full-contents{
+        width: 100%;
+        /* border: 1px solid red; */
     }
 
 
