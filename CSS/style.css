@@ -330,6 +330,15 @@
     margin-top: 30px;
 
 }
+.wood-card img{
+    transition: 0.2s;
+    flex: 1;
+
+}
+.wood-card img:hover{
+    transform: scale(1.05);
+    flex: 1;
+}
 
 /* <!-- WHY CHOOSEN US --> */
 .Main-section {
@@ -508,14 +517,20 @@
     background-color:#c27d3c; 
 }
    /* TEAM MEMBERS  */
-.our-Members-head h1 {
+.team-Members-head h1 {
     margin-top: 40px;
     text-align: center;
     font-weight: 700;
     font-size: 47px;
 }
-    /* Testimonial */
-
+    /* Testimonial section  ######       #### ##### */
+  /* #caro-whole-2{
+    height: 300px;
+  }
+  {
+    color: #555;
+    border: 1px solid red;
+  } */
 
      /* foooootteerrrr */
  .main-footer{
@@ -618,13 +633,14 @@
  }
  .sub-footer input{
     padding: 12px 20px;
+    border: none;
  }
  .sub4-footer a{
     text-decoration: none;
-    color:rgb(71, 71, 71);
-    background-color: white;
+    color:rgb(255, 250, 250);
+    background-color: #AB7442;
     padding: 12px;
-    border: 2px solid #f4f2f2;
+    border: 1px solid #ffffff;
  }
  
     /* border-footer */
@@ -771,13 +787,13 @@
 
     .main-sub1 {
         color: white;
-        font-size: 10px;
-        font-weight: 600;
+        font-size: 13px;
+        font-weight: 700;
 
     }
 
     .main-sub2 h3 {
-        font-size: 7px;
+        font-size: 9px;
         font-weight: 400;
         margin-bottom: 0px;
     }
@@ -785,8 +801,9 @@
     .main-sub3 p {
         font-size: 7px;
         text-align: center;
-        margin-bottom: 5px;
+        margin-bottom: 3px;
         font-weight: 300;
+        margin-top: 1px;
     }
 
     .main-caro-contents a {
@@ -868,14 +885,14 @@
     font-weight: 700;
     line-height: 1.2;
     color: #AB7442;
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .button-about {
     background-color: #AB7442;
     width: 30%;
     padding: 10px;
-    margin-left: 40%;
+    margin-left: 10%;
     margin-top: 30px;
 }
 
@@ -1029,17 +1046,17 @@
 .free-input1 input::placeholder{
     font-size: 20px;
     font-weight: 300;
-    /* padding-left: 10px; */
+    padding-left: 5px;
 }
 .free-input2 input::placeholder{
     font-size: 20px;
     font-weight: 300;
-    /* padding-left: 10px; */
+    padding-left: 5px;
 }
 .free-text textarea::placeholder{
     font-size: 20px;
     font-weight: 300;
-    /* padding-left: 5px; */
+    padding-left: 5px;
 }
 .free-input2 input{
     padding: 15px;
@@ -1058,6 +1075,7 @@
     border: none;
     margin-left: 0px;
     margin-top: 20px;
+    /* font-size: 20px; */
 }
 .free-text textarea:hover{
     border: 1px solid rgb(188, 180, 102);
@@ -1067,9 +1085,9 @@
     border: none;
     margin-top: 20px;
     text-align: center;
-    width: 60%;
+    width: 30%;
     height: 50px;
-    margin-left: 40px;
+    margin-left: 30px;
 }
 .free-btn button{
     border: none;
@@ -1195,13 +1213,15 @@
      }
      .sub-footer input{
         padding: 12px 5px;
+        border: none;
      }
      .sub4-footer a{
         text-decoration: none;
-        color:rgb(71, 71, 71);
-        background-color: white;
+        color:#ffffff;
+        background-color: #AB7442;
         padding: 12px;
-        border: 2px solid #f4f2f2;
+        border: 1px solid #ffffff;
+
      }
      
         /* border-footer */
