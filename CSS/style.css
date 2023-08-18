@@ -208,7 +208,7 @@
 /* abouts-section */
 .main-about {
     display: flex;
-    background-color: #f5f5f5;
+    background-color: #eaeaea;
     height: auto;
     margin-top: 50px;
 
@@ -296,12 +296,14 @@
     font-size: 42px;
 }
 
+
 /* cards  */
 .cards-section {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 30px;
+    
 
 }
 
@@ -434,7 +436,7 @@
 /* freee quote */
 .Free-quote{
     display: flex;
-    background-color: #f5f5f5;
+    background-color: #eaeaea;
     height: auto;
     margin-top: 3%;
 }
@@ -499,7 +501,7 @@
     border: none;
     margin-top: 20px;
     text-align: center;
-    width: 73%;
+    width: 67%;
     height: 50px;
 }
 .free-btn button{
@@ -820,7 +822,7 @@
     /* abouts-section */
 .main-about {
     display: inline;
-    background-color: #f5f5f5;
+    background-color: #eaeaea;
     height: auto;
     margin-top: 50px;
 
@@ -935,7 +937,7 @@
 }
 
 .left-head h1{
-    margin-left: 8%;
+    margin-left: 6%;
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -1019,7 +1021,7 @@
 /* freee quote */
 .Free-quote{
     display: inline;
-    background-color: #f5f5f5;
+    background-color: #eaeaea;
     height: auto;
     margin-top: 3%;
 }
@@ -1127,8 +1129,9 @@
         color: white;
         margin-left: 10px;
         /* padding-bottom: 60px; */
-        font-size: 14px;
+        font-size: 17px;
         font-weight: 200;
+        /* border: 1px solid red; */
     
      }
      .sub1-footer i{
